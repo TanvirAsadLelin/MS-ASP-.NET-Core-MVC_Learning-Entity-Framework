@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning-Entity Framework\\Introduction of Entity Framewrok\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore.csproj": {}
+    "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning-Entity Framework\\Code First Approach- Entity Framework\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore.csproj": {}
   },
   "projects": {
-    "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning-Entity Framework\\Introduction of Entity Framewrok\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore.csproj": {
+    "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning-Entity Framework\\Code First Approach- Entity Framework\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning-Entity Framework\\Introduction of Entity Framewrok\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore.csproj",
+        "projectUniqueName": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning-Entity Framework\\Code First Approach- Entity Framework\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore.csproj",
         "projectName": "CRUD_CodeFirstApproach_EFCore",
-        "projectPath": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning-Entity Framework\\Introduction of Entity Framewrok\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore.csproj",
+        "projectPath": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning-Entity Framework\\Code First Approach- Entity Framework\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore.csproj",
         "packagesPath": "C:\\Users\\Lelin_C#\\.nuget\\packages\\",
-        "outputPath": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning-Entity Framework\\Introduction of Entity Framewrok\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore\\obj\\",
+        "outputPath": "D:\\My GitHub\\MS-ASP .NET Core MVC_Learning-Entity Framework\\Code First Approach- Entity Framework\\CRUD_CodeFirstApproach_EFCore\\CRUD_CodeFirstApproach_EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,7 +46,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
