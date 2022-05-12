@@ -16,6 +16,7 @@ namespace CRUD_DatabaseFirstApproachEF.Models
         {
         }
 
+        public virtual DbSet<StdParentsDetailsTbl> StdParentsDetailsTbls { get; set; } = null!;
         public virtual DbSet<Student> Students { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -29,6 +30,23 @@ namespace CRUD_DatabaseFirstApproachEF.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<StdParentsDetailsTbl>(entity =>
+            {
+                entity.ToTable("Std_ParentsDetails_Tbl");
+
+                entity.Property(e => e.Address)
+                    .HasMaxLength(250)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.FatherName)
+                    .HasMaxLength(250)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.MotherName)
+                    .HasMaxLength(250)
+                    .IsUnicode(false);
+            });
+
             modelBuilder.Entity<Student>(entity =>
             {
                 entity.Property(e => e.Gender).HasMaxLength(50);
